@@ -4,6 +4,7 @@ import Home from "./Home.js";
 import AboutSearch from "./AboutSearch.js";
 import AboutCategory from "./AboutCategory.js";
 import AboutUI from "./AboutUI.js";
+import Footer from "./Footer.js";
 
 function App() {
   let teamView = false;
@@ -21,6 +22,7 @@ function App() {
           <AboutUI />
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

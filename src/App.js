@@ -4,6 +4,7 @@ import Home from "./Home.js";
 import AboutSearch from "./AboutSearch.js";
 import AboutCategory from "./AboutCategory.js";
 import AboutUI from "./AboutUI.js";
+import RightNavBar from "./RightNavBar.js";
 import Footer from "./Footer.js";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <AboutSearch />
           <AboutCategory />
           <AboutUI />
+          <RightNavBar />
         </div>
       </main>
       <Footer />

@@ -6,6 +6,8 @@ import AboutCategory from "./AboutCategory.js";
 import AboutUI from "./AboutUI.js";
 import RightNavBar from "./RightNavBar.js";
 import Footer from "./Footer.js";
+import { Testimonials } from "./Testimonials";
+
 
 function App() {
   let teamView = false;
@@ -21,6 +23,7 @@ function App() {
           <AboutSearch />
           <AboutCategory />
           <AboutUI />
+          <Testimonials/>
           <RightNavBar />
         </div>
       </main>

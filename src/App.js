@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./Header.js";
 import Home from "./Home.js";
+import AboutSearch from "./AboutSearch.js";
 
 function App() {
   let teamView = false;
@@ -13,6 +14,7 @@ function App() {
       <main>
         <div class="main">
           <Home />
+          <AboutSearch />
         </div>
       </main>
     </div>

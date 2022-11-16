@@ -3,6 +3,7 @@ import Header from "./Header.js";
 import Home from "./Home.js";
 import AboutSearch from "./AboutSearch.js";
 import AboutCategory from "./AboutCategory.js";
+import AboutUI from "./AboutUI.js";
 
 function App() {
   let teamView = false;
@@ -17,6 +18,7 @@ function App() {
           <Home />
           <AboutSearch />
           <AboutCategory />
+          <AboutUI />
         </div>
       </main>
     </div>

@@ -96,7 +96,7 @@ main {
   height: 440vh;
   width: 100%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   background-color: var(--secondary-color-light);
 }
 

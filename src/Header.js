@@ -1,10 +1,16 @@
-const Header = ({ toggleTeamView }) => {
+const Header = ({ teamViewFalse, toggleTeamView }) => {
   return (
     <header>
       <nav className="nav">
-        <a href="#home">Home</a>
-        <a href="#about">About Us</a>
-        <a href="#testimonials">Testimonials</a>
+        <a onClick={teamViewFalse} href="#home">
+          Home
+        </a>
+        <a onClick={teamViewFalse} href="#about">
+          About Us
+        </a>
+        <a onClick={teamViewFalse} href="#testimonials">
+          Testimonials
+        </a>
         <span onClick={toggleTeamView}>The Team</span>
       </nav>
     </header>

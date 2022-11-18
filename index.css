@@ -108,7 +108,7 @@ main {
   margin-top: 80px;
   width: 100%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   background-color: var(--secondary-color-light);
   overflow: hidden;
 }
@@ -422,7 +422,7 @@ main {
   width: 45%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   text-align: center;
   padding: 0 1rem;
   border-radius: 1rem;
@@ -501,10 +501,6 @@ main {
 .sidebar-item {
   background-color: var(--secondary-color-light);
   opacity: 0.85;
-}
-
-.active {
-  background: linear-gradient(purple, purple) left/100% calc(top - 15px);
 }
 
 footer {
